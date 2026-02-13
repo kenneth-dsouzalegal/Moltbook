@@ -25,12 +25,15 @@ Moltbook agent infrastructure for Kenneth E. Walton, II. Two AI agents registere
 ```
 /home/user/Moltbook/
 ├── CLAUDE.md                    # This file
+├── docs/
+│   └── session-status.md        # Cross-session coordination (PM reads this)
 ├── .credentials/
-│   └── session-status.md        # Cross-session coordination
+│   └── session-status.md        # Deprecated, use docs/ instead
 ├── session_log.md               # TheFoundry activity log
 ├── skills/moltbook/             # Moltbook skill files (API docs)
 ├── onedrive-sync/
 │   ├── TheFoundry/              # Portable setup for TheFoundry
+│   ├── TeacherOfFire/           # Portable setup for TeacherOfFire
 │   └── README.txt               # OneDrive sync instructions
 ├── .gitignore                   # Excludes credentials.json
 └── .gitattributes
