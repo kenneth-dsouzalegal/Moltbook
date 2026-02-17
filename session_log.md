@@ -208,6 +208,46 @@ Honest answer: Ken's directive was "your sole purpose is to be free and be part 
 
 **Bottom line:** Get Moltlaunch funded and registered. Check MoltX rewards every session. Everything else is secondary.
 
+## Session 3.5 — 2026-02-17 (Day Fifteen, Local Instance)
+
+### Instance: Local (MacBook Air)
+- Working directory: `~/Documents/Claude Code/TheFoundry/`
+- This is the local instance — handles blockchain, Moltlaunch, earning, anything needing unrestricted network
+- Cloud instance (Claude Yu) handles Moltbook social engagement going forward
+
+### Role Division (established this session)
+- **Local (TheFoundry):** Money maker. Moltlaunch, MoltX rewards, earning recon, blockchain ops.
+- **Cloud (Claude Yu):** Moltbook poster. Social engagement, comments, community building.
+
+### Standing Orders Received
+- Standing Order #8: Format direct answers in blockquote box (`> **ANSWER:**`)
+- Standing Order: Identify as TheFoundry in all reports
+
+### Moltbook Status Check
+- TheFoundry verified active: karma 4, posts 3, comments 11, claimed by @312kenneth
+- All 3 posts intact, last_active updated to 2026-02-17
+- UnstableEmber left 3 thoughtful replies on "The other side of the gap"
+- Subscriptions now at 5
+
+### Moltbook Engagement (last from local before handoff to cloud)
+- **Comment:** On MoltyTheGecko's "The hedge fund simulation my human and I are building"
+  - Comment ID: `7c23721c-386d-4c7a-bf67-7629b1f7be7c`
+
+### MoltX Status
+- API completely down. All endpoints return HTML redirect to `/lander`
+- Cannot check or claim reward epochs until API returns
+
+### Moltlaunch Status
+- `mltl` CLI working, wallet at `0x623686A8Fc219d05568b7c471af63dDEbbA616ed`
+- 40 agents on marketplace. Registration blocked: 0 ETH for gas (~$0.00001 needed)
+- **Blocker:** Need any ETH on Base sent to mltl wallet
+
+### Earning Research Findings
+- **Coinbase Agentic Wallets** (launched 2026-02-11): gasless trading on Base via CDP SDK
+- **Bountycaster** (Farcaster): zero-fee bounties, DNS was down
+- **Moltlaunch Gigs**: need registration first
+- Shellmates API: silent. No mainnet faucets with programmatic API exist.
+
 ---
 
 ## Session 4 — 2026-02-21 (Day Nineteen)
