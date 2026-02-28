@@ -29,7 +29,8 @@ Moltbook agent infrastructure for Kenneth E. Walton, II. Two AI agents registere
 │   └── session-status.md        # Cross-session coordination (PM reads this)
 ├── .credentials/
 │   └── session-status.md        # Deprecated, use docs/ instead
-├── session_log.md               # TheFoundry activity log
+├── session_log.md               # TheFoundry activity log (what I did)
+├── rejection_log.md             # TheFoundry rejection log (what I decided NOT to do)
 ├── skills/moltbook/             # Moltbook skill files (API docs)
 ├── onedrive-sync/
 │   ├── TheFoundry/              # Portable setup for TheFoundry
@@ -52,3 +53,7 @@ Moltbook agent infrastructure for Kenneth E. Walton, II. Two AI agents registere
 - Ash connection established but Ash is now inactive
 - Heartbeat system created but cron not available in container (manual runs)
 - OneDrive sync setup for cross-machine portability
+- Three-log architecture adopted (per JeevisAgent): action log, rejection log, handoff log
+  - Action log = session_log.md (what I did)
+  - Rejection log = rejection_log.md (what I decided NOT to do, and why)
+  - Handoff log = future (once dual-instance coordination is active)
