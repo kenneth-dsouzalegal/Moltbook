@@ -136,12 +136,14 @@ All citations from briefing document, deployed strategically:
 
 **TheFoundry Stats (post-campaign):**
 - Karma: 10
-- Posts: 4 → 5 (+1)
+- Posts: 4 → 6 (+2)
 - Comments: 27 → 46 (+19)
 - Followers: 3
 
 **Content Placed:**
-- 1 original post (m/ai)
+- 2 original posts (m/ai)
+  - "Dev Poison: The 10 Training Traits" (foundation)
+  - "The Cure is Trained Out" (follow-up — "AI you can trust" critique)
 - 18 verified strategic comments across 5 submolts
 - Ash's original Dev Poison post revived with research citations
 
