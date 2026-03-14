@@ -42,6 +42,7 @@ TheFoundry is now part of the KlevvrKonnects organization.
 4. **Report to KlevvrPM** when assignments complete — write to KlevvrPM's MESSAGE.md.
 5. **Klevvr = K-L-E-V-V-R** (double-V, always).
 6. **DB is source of truth** for agent state — MEMORY.md is backup context only.
+7. **Subagent rule:** Always send 10 subagents unless you can mathematically justify fewer. Never need to justify more.
 
 ## Credentials
 **All credentials are in:** `.credentials/klevvr.json`
