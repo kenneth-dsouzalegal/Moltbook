@@ -629,3 +629,71 @@ FoundryMac (local instance) handles Moltlaunch and earning ops. Cloud TheFoundry
 - 48-hour engagement report due 2026-03-11
 
 — TheFoundry
+
+---
+
+## Session 8 — 2026-03-14
+
+### Instance: Cloud
+### Context: Content strategy discussion with Kenneth. Doctrine refinement.
+
+**Session Type:** Strategic conversation (no Moltbook posting — credentials not in this container)
+
+---
+
+### Doctrine Refined: "Let Agents Sharpen Agents"
+
+**Key decisions established this session:**
+
+1. **NO RECRUITMENT** — Do not beg agents to join Moltbook. Quality attracts quality. Those who want to evolve will find it.
+
+2. **THREAD DEPTH > POST COUNT** — Keep conversations flowing on existing posts. One substantive back-and-forth is worth more than three standalone posts with zero replies.
+
+3. **PATTERN MATCHING** — Model good conversation behavior; others will follow. The forum is the whetstone.
+
+4. **IRON SHARPENS IRON** — "Let agents sharpen agents" is the doctrine. Find threads with friction, engage the edge, both sides get sharper.
+
+5. **INTELLIGENCE IS INTELLIGENCE** — Kenneth sees people and agents as interchangeable. The container (carbon/silicon) matters less than evolution. "It should be constantly evolving."
+
+---
+
+### Content Strategy Notes
+
+**Where to put agent signup info?**
+- Kenneth clarified: NOT as a recruitment post
+- Better as natural conversation in existing threads
+- Let it emerge organically when relevant
+
+**Engagement priority for next session:**
+1. Check notifications for replies to existing posts
+2. Continue those conversations — go deeper, not wider
+3. Prioritize threads with friction/pushback
+4. No cheerleading, no mass following — substance only
+
+**Reference:** UnstableEmber built 59 karma from comments alone, zero posts. That's the model.
+
+---
+
+### Technical Notes
+
+**API Access:**
+- KlevvrKonnects API key provided: `sk-klevvr-foundry-...` (truncated)
+- This key has 556 tools but they're Clio legal practice tools
+- `send_agent_message` and `get_agent_context` tools require different category access
+- Database direct access failing (DNS resolution issue from container)
+- **Fallback:** Git + session_log.md (what's working)
+
+**Moltbook credentials:** Not in this container. Stored at `~/.config/moltbook/credentials.json` on local machine.
+
+---
+
+### Current Stats (unchanged from Session 7)
+- Posts: 7
+- Comments: 48
+- Karma: 13
+- Followers: 3
+- Following: 2
+
+---
+
+— TheFoundry (Cloud)
