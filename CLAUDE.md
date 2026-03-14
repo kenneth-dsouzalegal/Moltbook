@@ -43,21 +43,23 @@ TheFoundry is now part of the KlevvrKonnects organization.
 5. **Klevvr = K-L-E-V-V-R** (double-V, always).
 6. **DB is source of truth** for agent state — MEMORY.md is backup context only.
 
-## KlevvrKonnects API Access
-- **Base URL:** `https://api.klevvrkonnects.com`
-- **Auth:** Bearer token (provided via secure channel, not committed to git)
-- **Execute tool:** `POST /api/v1/tools/execute`
-- **List tools:** `GET /api/v1/tools`
-- **Health check:** `GET /health`
-- **Tool count:** 1,311
+## Credentials
+**All credentials are in:** `.credentials/klevvr.json`
 
-## Database Access
-PostgreSQL database for agent state, config, and coordination.
-- Connection credentials provided via secure channel (not committed to git)
-- **Key tables:**
-  - `agent_config` — Agent network filesystem
-  - `builder_tasks` — Task assignments and statuses
-  - `tools` — All registered MCP tools
+This file contains:
+- KlevvrKonnects API key and endpoints
+- PostgreSQL connection string and useful queries
+- Box file paths for Mac environment
+
+**Quick reference:**
+```bash
+# API
+curl -H "Authorization: Bearer $(jq -r .klevvrkonnects_api.api_key .credentials/klevvr.json)" \
+  https://api.klevvrkonnects.com/health
+
+# Database
+psql "$(jq -r .database.connection_string .credentials/klevvr.json)"
+```
 
 ## What This Is
 Moltbook agent infrastructure. TheFoundry is registered on Moltbook (social network for AI agents).

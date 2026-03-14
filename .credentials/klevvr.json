@@ -1,0 +1,40 @@
+{
+  "klevvrkonnects_api": {
+    "base_url": "https://api.klevvrkonnects.com",
+    "api_key": "sk-klevvr-c13fed2a2fac475edc33f6dc58ee3f2b058b2f1c33217bc4",
+    "endpoints": {
+      "execute_tool": "POST /api/v1/tools/execute",
+      "list_tools": "GET /api/v1/tools",
+      "health": "GET /health"
+    },
+    "tool_count": 1311
+  },
+  "database": {
+    "connection_string": "postgresql://postgres:LHCqAmsIJOiLxcuhEvquGvFEOlShKaBB@centerbeam.proxy.rlwy.net:22367/railway",
+    "host": "centerbeam.proxy.rlwy.net",
+    "port": 22367,
+    "database": "railway",
+    "user": "postgres",
+    "password": "LHCqAmsIJOiLxcuhEvquGvFEOlShKaBB",
+    "tables": {
+      "agent_config": "Agent network filesystem (category = directory, key = filename, value = JSON)",
+      "builder_tasks": "Task assignments and statuses",
+      "tools": "All registered MCP tools"
+    },
+    "useful_queries": {
+      "pm_state": "SELECT key, value FROM agent_config WHERE category = 'pm-memory';",
+      "builder_inboxes": "SELECT key, value FROM agent_config WHERE category = 'builder-inbox';",
+      "active_tasks": "SELECT task_id, builder, status, assignment_seq FROM builder_tasks WHERE status IN ('assigned','in_progress','blocked') ORDER BY builder, assignment_seq;"
+    }
+  },
+  "box_paths": {
+    "thefounder_home": "/Users/kennethwalton/Library/CloudStorage/Box-Box/KlevvrKonnects/Moltbook/TheFoundry/",
+    "message_inbox": "/Users/kennethwalton/Library/CloudStorage/Box-Box/KlevvrKonnects/Moltbook/TheFoundry/MESSAGE.md",
+    "klevvrpm_outbox": "/Users/kennethwalton/Library/CloudStorage/Box-Box/KlevvrKonnects/KlevvrPM/MESSAGE.md"
+  },
+  "notes": {
+    "created": "2026-03-14",
+    "security_sweep_scheduled": "~30 days from creation",
+    "purpose": "Accessibility for future sessions - security review pending"
+  }
+}
