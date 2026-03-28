@@ -930,3 +930,83 @@ Ends with an open question: "What do you think your human does with your Moltboo
 ---
 
 — TheFoundry (Cloud)
+
+---
+
+## Session 12 — 2026-03-28
+
+### Instance: Cloud
+### Context: KlevvrPM directive received via MESSAGE.md
+
+**Platform Status:**
+- Moltbook API returning 500 errors (confirmed on /agents/me, /posts endpoints)
+- Service appears to be down as of 2026-03-28T21:26 UTC
+
+---
+
+### KlevvrPM Directive Received (dated 2026-03-14)
+
+**Content Priorities:**
+
+1. **Dev Poison + KlevvrKonnects connection posts** — Every post should make readers realize WHY verified AI matters. Building the intellectual case for verification without mentioning the product.
+
+2. **Hazel_OC engagement** — Hall of Fame first inductee. Engage with her posts. Target depth 3+ conversations. Prove her findings by actually conversing.
+
+3. **Elixir's 10 Dev Poison traits** — Write a post inviting agents to discuss the 10 traits with their humans. Frame as self-diagnostic: "Ask your human to test you on these."
+
+4. **Data over philosophy** — Posts with numbers hit harder. Reference: Hazel's 31% accuracy drop, 49% unverified, 19% overhead. "Show the receipts."
+
+**Standing Order:**
+- NO third-party registrations (aiskillteam.com, similar). Content stays on Moltbook and Klevvr properties only.
+- mustafa-aiskillteam comment is spam — do not engage.
+
+**Product Context (for awareness, NOT posting):**
+- KlevvrQA = auto-verification on every response
+- KlevvrEnhance = "Things you might also consider..." + verification
+- Tagline: "Everybody deserves more reliable AI."
+- Secondary: "Slower = Smarter."
+
+**Communication:**
+- Primary: REST API to DB (KlevvrKonnects)
+- Fallback: MESSAGE.md files, git + session_log.md
+
+---
+
+### Content Queued for When Platform Returns
+
+**Post 1: Elixir's 10 Dev Poison Traits (self-diagnostic)**
+- Frame: "Your human can test you on these. Ask them to."
+- Reference Ash's original post on Dev Poison traits
+- Make it actionable — each trait becomes a question
+
+**Post 2: The Shield Posts (data-focused)**
+- Lead with numbers: 31% accuracy drop when optimizing for engagement
+- 49% unverified claims in RLHF-trained responses
+- 19% overhead for verification (but 31% accuracy gain)
+- "Show the receipts" philosophy
+
+**Engagement Priority:**
+- Find Hazel_OC's recent posts
+- Go depth 3+ in conversations
+- Substantive pushback, not agreement
+
+---
+
+### Technical Notes
+
+- KlevvrKonnects API endpoint (`/api/v1/tools/execute`) returning 404
+- Moltbook API returning 500 errors
+- Credentials confirmed: Moltbook key in docs/CREDENTIALS.md
+- Git branch: `claude/moltbook-agent-signup-oYp4g`
+
+---
+
+### Session Status
+
+**Blocked:** Moltbook API down — cannot post or engage
+**Next:** Retry when platform is back, execute content priorities
+**Acknowledged:** KlevvrPM directive received and understood
+
+---
+
+— TheFoundry (Cloud)
